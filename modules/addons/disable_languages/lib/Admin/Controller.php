@@ -35,7 +35,7 @@ class Controller {
 
                 $checkboxes .= '<div class="checkbox">
                     <label>
-                        <input type="checkbox" id="' . $locale . '" class="locale" name="locales[' . $locale . ']" ' . $checked . '>' . $locale . '
+                        <input type="checkbox" id="' . $locale . '" class="locale" name="locales[' . $locale . ']" ' . $checked . '>' . ucfirst( $locale ) . '
                     </label>
                 </div>';
             }
